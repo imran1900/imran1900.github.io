@@ -1,0 +1,398 @@
+
+h1 {
+text-align : center;
+font-size : 72px;
+margin-top : 2em;
+line-height : 85px;
+display : block;
+}
+.desc {
+text-align : center;
+font-size : 18px;
+display : block;
+}
+.header2 {
+font-size : 34px;
+line-height : 42px;
+display : block;
+margin-left : 7em;
+}
+.box {
+display : flex;
+width : 1400px;
+height : 425px;
+margin-top : 3em;
+margin-left : 14em;
+margin-right : 5em;
+background : #F9F9F9;
+border : #000000 solid 1px;
+border-radius : 10px;
+}
+.box2 {
+display : block;
+width : 1400px;
+height : 190px;
+background-color : #F5FF80;
+margin-top : 5em;
+margin-left : 14em;
+margin-right : 5em;
+border : #000000 solid 1px;
+border-radius : 10px;
+}
+.box3 {
+display : inline-block;
+width : 557px;
+height : 656px;
+margin-top : 5em;
+margin-left : 14em;
+margin-right : 5em;
+margin-bottom : 10em;
+border : #000000 solid 1px;
+border-radius : 10px;
+vertical-align : top;
+}
+.card {
+margin-left : 6em;
+margin-right : 8em;
+}
+.card h3 {
+font-size : 48px;
+}
+.card p {
+text-align : left;
+}
+.card-header {
+margin-top : 1em;
+display : flex;
+}
+.card2 {
+margin : 2em 3em;
+}
+.card2 h3 {
+font-size : 34px;
+}
+.card2 p {
+text-align : left;
+font-style : normal;
+font-weight : normal;
+width : 486px;
+height : 46px;
+}
+.card2 form {
+position : absolute;
+width : 500px;
+height : 54px;
+left : 1100px;
+top : 1080px;
+box-sizing : border-box;
+border-radius : 10px 0 0 10px;
+}
+.card3 p {
+text-align : left;
+font-style : normal;
+font-weight : normal;
+}
+#subscribe {
+width : 280px;
+border-radius : 13px;
+height : 54px;
+}
+#button2 {
+padding : 14px;
+border-radius : 10px;
+border-style : none;
+background-color : black;
+color : white;
+font-size : 1rem;
+}
+.btn {
+margin-left : auto;
+padding : 18px 15px;
+border-radius : 25px;
+text-decoration : none;
+color : black;
+background-color : white;
+transition : 0.4s;
+border : solid 1px;
+border-color : black;
+}
+.wrapper {
+display : block;
+}
+@media screen and (max-width: 1030px) {
+#clip1 {
+display : none;
+}
+#clip2 {
+display : none;
+}
+.box {
+display : flex;
+margin-left : 1em;
+width : 650px;
+height : 580px;
+}
+.box2 {
+display : flex;
+margin-left : 1em;
+width : 650px;
+height : 360px;
+}
+.box3 {
+margin-left : 1em;
+width : 650px;
+height : 280px;
+}
+form {
+max-width : 1000px;
+width : 100%;
+margin-left : auto;
+margin-right : auto;
+}
+}
+.card2 form {
+position : initial;
+}
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-family : Inter, Arial, Helvetica, sans-serif;
+}
+nav {
+background-color : white;
+padding : 10px;
+display : flex;
+flex-wrap : wrap;
+flex-direction : row;
+}
+#home {
+width : 160px;
+height : 25px;
+margin-right : 5rem;
+margin-left : 2rem;
+}
+.nav2 {
+margin-right : 20px;
+margin-top : 5px;
+color : black;
+text-decoration : none;
+}
+.nav2:hover {
+color : darkgray;
+transition : 0.1s ease-out;
+}
+.nav2:active {
+color : gray;
+}
+#login {
+margin-left : auto;
+order : 2;
+margin-right : 20px;
+margin-top : 5px;
+color : black;
+text-decoration : none;
+}
+#login:hover {
+color : darkgray;
+transition : 0.1s ease-out;
+}
+#login:active {
+color : gray;
+}
+#signup {
+order : 2;
+border : black solid 1.5px;
+border-radius : 10px;
+padding : 5px 10px 5px;
+color : black;
+text-decoration : none;
+}
+#signup:hover {
+color : darkgray;
+transition : 0.1s ease-out;
+}
+#signup:active {
+color : gray;
+}
+#msignup {
+display : none;
+}
+footer {
+background-color : black;
+color : white;
+padding-top : 50px;
+padding-bottom : 2rem;
+display : flex;
+justify-content : center;
+flex-wrap : wrap;
+}
+.footerheading {
+display : flex;
+flex-direction : column;
+margin-right : 65px;
+}
+#logo {
+width : 160px;
+height : 25px;
+margin-right : 15rem;
+margin-top : 2rem;
+margin-left : 10rem;
+}
+.footerheading h2 {
+margin-bottom : 1rem;
+}
+.footerheading ul {
+list-style : none;
+}
+.footerheading li {
+margin-bottom : 15px;
+}
+.footerheading a {
+color : #ffffff;
+text-decoration : none;
+}
+.footerheading a:hover {
+color : lightgray;
+transition : 0.1s ease-out;
+}
+.footerheading a:active {
+color : darkgray;
+}
+#newsletter {
+height : 2rem;
+width : 15rem;
+margin-bottom : 20px;
+border-radius : 10px;
+border-style : solid;
+border-color : lightgrey;
+border-width : 1.5px;
+}
+#button {
+padding : 5px 5px 7px;
+border-radius : 10px;
+border-style : solid;
+border-color : lightgrey;
+background-color : #d3e3e3;
+border-width : 1px;
+font-size : 1rem;
+margin-left : -20%;
+}
+#button:active {
+background-color : #94a0a0;
+}
+.socials {
+width : 1.5rem;
+height : 1.5rem;
+}
+.footer-4 {
+margin : auto;
+}
+.footer-4 a {
+width : 1rem;
+}
+#rights {
+color : gray;
+font-size : 0.8rem;
+margin : auto;
+}
+#rights a {
+color : gray;
+text-decoration : none;
+}
+@media only screen and (max-width: 1024px) {
+* {
+font-size : large;
+}
+#logo {
+margin : auto;
+}
+#newsletter {
+font-size : 0.8rem;
+width : 10rem;
+border-radius : 5px;
+}
+#button {
+padding : 5px;
+margin : auto;
+border-radius : 5px;
+}
+.footer-4 {
+margin : auto;
+}
+#rights {
+padding-top : 1rem;
+margin : auto;
+}
+}
+@media only screen and (max-width: 768px) {
+#home {
+margin : auto;
+width : auto;
+}
+nav {
+flex-direction : column;
+}
+.nav2 {
+border-top : black;
+padding : 0.5rem 0 0.5rem;
+margin : auto;
+font-size : 2rem;
+}
+#logo {
+margin : auto;
+}
+#login {
+padding : 0.5rem 0 0.5rem;
+order : initial;
+margin : auto;
+font-size : 2rem;
+}
+#signup {
+display : none;
+}
+#msignup {
+padding : 0.5rem 0 0.5rem;
+display : inline;
+font-size : 2rem;
+margin : auto;
+color : black;
+text-decoration : none;
+}
+#msignup:hover {
+color : darkgray;
+transition : 0.1s ease-out;
+}
+#msignup:active {
+color : gray;
+}
+#newsletter {
+font-size : 0.8rem;
+width : 10rem;
+border-radius : 5px;
+}
+#button {
+padding : 5px;
+margin : auto;
+border-radius : 5px;
+}
+#logo {
+margin-bottom : 1rem;
+}
+.footerheading {
+padding : 0.8rem;
+}
+.footer-4 {
+margin : auto;
+}
+.footer-4 h3 {
+padding-bottom : 0.5rem;
+}
+.footer-4 a {
+margin-bottom : 1rem;
+}
+.socials {
+width : 2rem;
+height : 2rem;
+}
+} 

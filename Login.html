@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common - Log in</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img id="logo" src="Images/Wlogo.png" alt="Logo"></a>
+    </nav>
+    <div id="deco">
+        <div><img src="Images/Stair.png" alt="Stair deco" id ="stair"></div>
+        <div><img src="Images/Hbox.png" alt="Box deco" id ="hbox"></div>
+        <div><img src="Images/Oval.png" alt="Oval deco" id ="oval"></div>
+    </div>
+    <br><br><br><br><br><br><br>
+    <div id="mainbox">
+        <div id="wrap">
+            <h1>Welcome back to Common.</h1>
+            <p>Enter your email below, and we'll send you a link to log in.</p>
+            <div id="box">
+                <form action="https://www.w3schools.com/action_page.php" onsubmit="return logIn()" method="POST">
+                    <input type="email" name="login" id="login" placeholder="Email"><br>
+                    <input id = "button" type="submit" value="Send log in link">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><p><span>New to common?</span> Common is an all-in-one course creation platform <br>for personal development coach. </p></li>
+        </ul>
+        <ul>
+            <li><a href="Signup.html"> Sign up</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        function logIn() {
+            var login = document.getElementById("login").value;
+            if (login == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+            else
+            {
+                alert("An email with the log in link has been sent to the email " + login +".");
+                return true;
+            }
+        }
+    </script>
+</body>
+</html>
+
+<!--Done by Marvin-->

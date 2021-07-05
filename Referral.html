@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!-<![endif]-->
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Referral</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="referral.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html"><img src="Images/Blogo.png" alt="Logo" id="home"></a>
+            <a class="nav2" href="Pricing.html">Pricing</a>
+            <a class="nav2" href="FAQ.html">FAQ</a>
+            <a class="nav2" href="Blog.html">Blog</a>
+            <a class="nav2" href="about.html">About</a>
+            <a id="login" href="Login.html">Log In</a>
+            <a id="signup" href="Signup.html">Start For Free</a>
+            <a id="msignup" href="Signup.html">Signup</a>
+        </nav>
+
+        <main><h1>Refferral program</h1>
+        <p>Using common? Love it? Want to tell other personal development coach about common? Join the common referral program! If you refer another coach to common and they become a customer we’ll give you a 15% dicount on your next subscription. It’s that easy!</p>
+        <a href="#" class="btn">Refer a coach</a> 
+        <div class="right"><img id="catimage" alt="Cat" src="Images/image10.png"></div></main>
+        
+        <footer>
+            <div class="footerheading logo">
+                <img id="logo" src="Images/Wlogo.png" alt="Logo">   
+            </div>
+            
+            <div class="footerheading footer-1">
+                <h2>Product</h2>
+                <ul> 
+                    <li><a href="Pricing.html">Pricing</a></li>
+                    <li><a href="Login.html">Log in</a></li>
+                    <li><a href="Signup.html">Sign up</a></li>
+                    <li><a href="how.html">How it Works</a></li>
+                </ul>
+            </div>
+            <div class="footerheading footer-2">
+                <h2>About Us</h2>
+                <ul> 
+                    <li><a href="Support.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footerheading footer-3">
+                <h2>Resources</h2>
+                <ul> 
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Referral.html">Refferral</a></li>
+                    <li><a href="Newsletter.html">Newsletter</a></li>
+                </ul>
+            </div>
+            <div class="footerheading footer-4">
+                <h3>Enter The Fold</h3>
+                <form action="https://www.w3schools.com/action_page.php" onsubmit="return newsLetter()" method="POST" autocomplete="off">
+                    <label for="newsletter">Subscribe to our newsletter</label><br>
+                    <input type="email" name="newsletter" id="newsletter" placeholder="Email">
+                    <input id = "button" type="submit" value="Subcribe">
+                </form>
+                <a href="https://twitter.com"><img src="Images/Twitter.png" alt="Twitter" class="socials"></a>
+                <a href="https://www.instagram.com"><img src="Images/Instagram.png" alt="Instagram" class="socials"></a>
+            </div>
+            
+            <div id="rights">
+                <p>@ 2021 Common Inc All Rights Reserved.<p><br>
+                <a href="t&c.txt">Terms and Conditions | </a><a href="priv.txt">Privacy</a>
+            </div>
+        </footer>
+    
+        <script>
+            function newsLetter() {
+                var newsletter = document.getElementById("newsletter").value;
+                if (newsletter == "") {
+                    alert("Email must be filled out");
+                    return false;
+                }
+                else
+                {
+                    alert("Thank you for subscribing to our newsletter");
+                    return true;
+                }
+            }
+        </script>
+    </body>
+</html>
+
+<!--Yuuta part-->

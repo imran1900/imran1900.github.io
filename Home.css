@@ -1,0 +1,707 @@
+/*stretch to whole page*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inter,Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    height: 100%;
+    
+}
+
+#ellipse1
+{
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    left: -10%;
+    top: 20%;
+    z-index: -1;
+    background: #D7E4E3;
+    filter: blur(300px);
+}
+
+#ellipse2
+{
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    left: 60%;
+    top: -10%;
+    z-index: -1;
+    background: #F5FF80;
+    filter: blur(300px);
+}
+
+#image1
+{
+    position: absolute;
+    width: 421px;
+    height: 388px;
+    left: 70%;
+    top: 25%;
+
+}
+
+#cloud
+{
+    position: absolute;
+    transform: rotate(-6.18deg);
+    width: 348px;
+    height: 400px;
+    left: -1%;
+    top: 220%;
+}
+
+#oval
+{
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    left: 70%;
+    top: 250%;
+}
+
+#square
+{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 65%;
+    top: 350%;
+}
+#semi2
+{
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 50px;
+    top: 350%;
+}
+
+
+/*nav section*/
+nav
+{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*Changes size of Home logo and link to home*/
+#home
+{   
+    width : 160px;
+    height : 25px; 
+    margin-right: 5rem;
+    margin-left: 2rem;
+}
+
+/*changes most of the link text colours,margins,style and colour when hovered or pressed*/
+.nav2
+{ 
+    margin-right: 20px;
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+}
+.nav2:hover
+{
+    color: darkgray;
+    transition: 0.1s ease-out;
+}
+.nav2:active
+{
+    color: gray;
+}
+
+/**changes login text location,colours,margins,style and colour when hovered or pressed*/
+#login
+{
+    margin-left: auto;
+    order: 2;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+}
+#login:hover
+{
+    color: darkgray;
+    transition: 0.1s ease-out;
+}
+#login:active
+{
+    color: gray;
+}
+
+/**changes singup text location,colours,margins,style and colour when hovered or pressed
+as well as the border around the sigunp*/
+#signup
+{
+    order: 2;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 5px 10px 5px;
+    color: black;
+    text-decoration: none;
+}
+#signup:hover
+{
+    color: darkgray;
+    transition: 0.1s ease-out;
+}
+#signup:active
+{
+    color: gray;
+}
+
+#msignup{display: none;}
+
+/*Starting Div*/
+#start
+{
+    justify-content: left;
+    padding: 5rem 11rem;
+    
+}
+
+#start h1
+{
+    font-size: 4rem;
+}
+
+#start p
+{
+    padding-top: 1rem;
+    padding-bottom:2rem;
+}
+
+#mailfield
+{
+    height: 2rem;
+    width: 15rem;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 10px;
+    border-color: black;
+}
+#mailbutton
+{
+    margin-left: -2.5rem;
+    padding: 7px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+#mailbutton:hover
+{
+    color: gray;
+    cursor: pointer;
+}
+#footnote
+{
+    color: grey;
+    font-size: .7rem;
+    margin-top: 1px;
+}
+
+/*main body boxes*/
+.mainboxR
+{   
+    margin: auto;
+    width: 75%;
+    padding: 1rem 1rem 3rem;
+    border-style:none;
+    border-radius: 8px;
+    background-color: rgb(247, 247, 247);
+}
+
+.boxcontentR
+{
+    text-align: left;
+    padding-right: 2rem;
+}
+
+.boxrowR
+{
+    display: flex;
+    justify-content: right;
+}
+.boxcolR
+{
+    padding: 1rem;
+    flex-direction: column;
+    text-align: left ;
+}
+.boxcolR h1
+{
+    padding-bottom: 1rem;
+}
+.boxcolR h2
+{   
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+.boxcolR p
+{
+    color: rgb(102, 102, 102);
+}
+.startfreeR
+{   
+    margin-right: 13rem;
+    text-align: center;
+    
+    background-color: black;
+    padding: .7rem 1.5rem .7rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.startfreeR:hover
+{
+    color: gray;
+}
+
+.mainboxL
+{   
+    margin: auto;
+    width: 75%;
+    padding: 1rem 1rem 3rem;
+    border-style:none;
+    border-radius: 8px;
+    background-color: rgb(247, 247, 247);
+}
+
+.boxcontentL
+{
+    text-align: left;
+    padding-right: 2rem;
+}
+
+.boxrowL
+{
+    display: flex;
+}
+.boxcolL
+{
+    padding: 1rem;
+    flex-direction: column;
+    text-align: left ;
+}
+.boxcolL h1
+{
+    padding-bottom: 1rem;
+}
+.boxcolL h2
+{   
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+.boxcolL p
+{
+    color: rgb(102, 102, 102);
+}
+.startfreeL
+{   
+    margin-right: 13rem;
+    text-align: center;
+    background-color: black;
+    padding: .7rem 1.5rem .7rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.startfreeL:hover
+{
+    color: gray;
+}
+
+/*Black background css*/
+#back
+{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+    width:100%;
+    height:75rem;
+    margin-top: -13rem;
+    background-color: black;
+}
+
+/*Signup section*/
+#nofuss
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#nofuss h1
+{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.lastsign
+{
+    background-color: rgb(252, 252, 133);
+    padding: .5rem 1rem .5rem;
+    box-shadow: 2px 2px rgb(199, 199, 0);
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+.lastsign:hover
+{
+    color: rgb(65, 65, 65);
+}
+.lastsign:active
+{
+    margin-left: 2px;
+    margin-top: 2px;
+    box-shadow: none;
+}
+
+#center
+{
+    display: flex;  
+    justify-content: center;
+}
+#semi
+{
+    position: absolute;
+    margin-top: -17rem;
+    z-index: -1;
+    width: 50%;
+    height: 50%;
+    background-size:contain;
+    background-image: url(images/Semi.png);
+    background-repeat: no-repeat;
+}
+#back2
+{
+    position: absolute;
+    z-index: -2;
+    width:80%;
+    height:50rem;
+    border-radius: 10px;
+    margin-top: -13rem;
+    background-color: #D7E4E3;
+    
+}
+
+#unlock
+{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#unlock h1
+{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    
+}
+/*Css for footer*/
+/*changes footer background and text colour, padding,centers content.
+ display type to flex to work with mobile.*/
+ footer
+ {
+     background-color: black; 
+     color: white;
+     padding-top: 50px;
+     padding-bottom: 2rem;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ 
+ /*Display set to flex to create columns and margin right for spacing*/
+ .footerheading
+ {
+     display: flex;
+     flex-direction: column;
+     margin-right: 65px;
+ }
+ 
+ /*Logo size and margins*/
+ #logo
+ {
+     width:160px;
+     height:25px;
+     margin-right: 15rem;
+     margin-top: 2rem;
+     margin-left: 10rem;
+ }
+ 
+ /*heading sizes for footer*/
+ .footerheading h2
+ {
+     margin-bottom: 1rem;
+ }
+ 
+ 
+ /*Changes colour,style and margin for text below headings*/
+ .footerheading ul
+ {
+     list-style: none;
+ }
+ .footerheading li
+ {
+     margin-bottom: 15px;
+ }
+ .footerheading a
+ {
+     color: #ffffff;
+     text-decoration: none;
+ }
+ .footerheading a:hover
+ {
+     color: lightgray;
+     transition: 0.1s ease-out;
+ }
+ .footerheading a:active
+ {
+     color: darkgray;
+ }
+ 
+ 
+ /*Changes size and margin of input field for newsletter*/
+ #newsletter
+ {
+     height: 2rem ;
+     width: 15rem;
+     margin-bottom: 20px;
+     border-radius: 10px;
+     border-style: solid;
+     border-color: lightgrey;
+     border-width: 1.5px;
+ }
+ 
+ /*Changes button size,padding and colour as well as border style for button*/
+ #button
+ {
+     padding:5px 5px 7px;
+     border-radius: 10px;
+     border-style: solid;
+     border-color: lightgrey;
+     background-color: #d3e3e3;
+     border-width: 1px;
+     font-size: 1rem;
+     margin-left: -20%;
+ }
+ #button:active
+ {
+     background-color: #94a0a0;
+ }
+ 
+ /*Changes the width and height of the socials*/
+ .socials
+ {
+     width: 1.5rem;
+     height: 1.5rem;
+ }
+ 
+ /*specifically changes link size for the twitter/instagram size*/
+ .footer-4
+ {
+     margin: auto;
+ }
+ .footer-4 a
+ {
+     width: 1rem;    
+ }
+ 
+ /*Copyright css*/
+ /*Changes the text colours,font size, margins of the copyrights and also changes the colour
+  of the link and link style*/
+ #rights
+ {
+     color: gray;
+     font-size: 0.8rem;
+     margin:auto;   
+ }
+ #rights a
+ {   
+     color:gray;
+     text-decoration: none;
+ }
+ 
+ /*for any screen bigger than 1920px*/
+ @media only screen and (min-width: 1940px)
+ {
+    *
+    {
+        font-size: x-large
+    }
+
+    #deco
+    {
+        display: none;
+    }
+    
+    #ellipse2
+    {
+        width: 700px;
+        height: 700px;
+    }
+
+    #ellipse1
+    {
+        width: 900px;
+        height: 900px;
+    }
+ }
+ @media only screen and (max-width: 1900px)
+ {
+    #deco
+    {
+        display: none;
+    }
+ }
+ /*for tablets*/
+ @media only screen and (max-width: 1280px) 
+ {
+    *
+    {
+        font-size: small;
+    }
+    #logo{margin: auto}
+    #newsletter
+    {
+        font-size: .8rem;
+        width: 10rem;
+        border-radius: 5px;
+    }
+    #button
+    {   padding: 5px;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .footer-4
+    {
+        margin: auto;
+    }
+    #rights
+    {
+        padding-top: 1rem;
+        margin:auto;
+    }
+    
+    
+ }
+ /*for Phones*/
+ @media only screen and (max-width: 768px) 
+ {
+     *
+     {
+         font-size:x-small ;
+     }
+     #home
+     {
+         margin:auto;
+         width:auto;
+     }
+     nav
+     {
+         flex-direction: column;
+     }
+     .nav2
+     {
+         border-top: black;
+         padding:.5rem 0rem .5rem;
+         margin:auto;
+         font-size: 2rem;
+     }
+     #logo
+     {
+         margin: auto;
+     }
+     #login
+     {
+         padding:.5rem 0rem .5rem;
+         order: initial;
+         margin: auto;
+         font-size: 2rem;
+     }
+     #signup
+     {
+         display: none;
+     }
+     #msignup
+     {
+         padding:.5rem 0rem .5rem;
+         display: inline;
+         font-size: 2rem;
+         margin: auto;
+         color: black;
+         text-decoration: none;
+     }
+     #msignup:hover
+     {
+         color: darkgray;
+         transition: 0.1s ease-out;
+     }
+     #msignup:active
+     {
+         color: gray;
+     }
+     #newsletter
+     {
+         font-size: .8rem;
+         width: 10rem;
+         border-radius: 5px;
+     }
+     #button
+     {   padding: 5px;
+         margin: auto;
+         border-radius: 5px;
+     }
+ 
+     #logo
+     {
+         margin-bottom: 1rem;
+     }
+ 
+     .footerheading
+     {
+         padding: .8rem;
+     }
+     .footer-4
+     {
+         margin: auto;
+         
+     }
+     .footer-4 h3
+     {
+         padding-bottom: .5rem;
+     }
+     .footer-4 a
+     {
+         margin-bottom: 1rem;
+     }
+     .socials
+     {
+         width: 2rem;
+         height: 2rem;
+    }
+    
+@media only screen and (max-width: 500px) 
+    {
+        *
+        {
+            font-size:xx-small;
+        }
+    }
+}

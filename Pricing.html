@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!-<![endif]-->
+<html lang="en">
+    <head>
+        <title>Pricing</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+        <link rel="stylesheet" href="Pricing.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html"><img src="Images/Blogo.png" alt="Logo" id="home"></a>
+            <a class="nav2" href="Pricing.html">Pricing</a>
+            <a class="nav2" href="FAQ.html">FAQ</a>
+            <a class="nav2" href="Blog.html">Blog</a>
+            <a class="nav2" href="about.html">About</a>
+            <a id="login" href="Login.html">Log In</a>
+            <a id="signup" href="Signup.html">Start For Free</a>
+            <a id="msignup" href="Signup.html">Signup</a>
+        </nav>
+
+
+        <h1>Simple Pricing. No <span>*</span>s</h1>
+        <div class="description">No hidden cost. What you pay is what you pay</div>
+        <div class="box">
+            <p class="boxtitle">common free</p>
+            <hr>
+            <p class="toptable">Free <i>Forever</i></p>
+            <a href="Signup.html" class="btn">Get started</a>
+            <br><br>
+            <p class="smalltoptable">Our-free-foever plan lets you start teaching like a pro.</p>
+            <br>
+            <ul>
+                <li>Up to 3 active Notebooks</li>
+                <li>Unlimited viewers</li>
+                <li>Closed Notebooks are available for 30days</li>
+                <li>Reviews and review tracking</li>
+                <li>Basic integrations: Figma, Sketch, Github and Jira</li>
+                <li>Basic insights</li>
+                <li>Email support</li>
+            </ul>  
+        </div>
+        <div class="box2">
+            <p class="boxtitle">common pro</p>
+            <hr>
+            <p class="toptable">RM99</p>
+            <a href="Signup.html" class="btn">Try for free</a>
+            <br><br>
+            <p class="smalltoptable">Perfect for the teaching pro. Get everything in common<br> free, plus:</p>
+            <br>
+            <ul>
+                <li>Fine grained roles and permissions with SSO, SAML, and SCIM authentication</li>
+                <li>Focused Reviews and Review Tracking -- get feedback how you need it, from anyone, anytime</li>
+                <li>High priority support with dedicated account management, custom invoicing, and contracts available</li>
+                <li>Advanced insights -- learn exactly how you’re spending time and optimize future workflows</li>
+            </ul>
+        </div>
+        <div class="underdescription">Not sure which plan is best for you?</div>
+        <a href="Support.html" class="btn2"><b>Contact Support</b></a>
+
+        <footer>
+            <div class="footerheading logo">
+                <img id="logo" src="Images/Wlogo.png" alt="Logo">   
+            </div>
+            
+            <div class="footerheading footer-1">
+                <h2>Product</h2>
+                <ul> 
+                    <li><a href="Pricing.html">Pricing</a></li>
+                    <li><a href="Login.html">Log in</a></li>
+                    <li><a href="Signup.html">Sign up</a></li>
+                    <li><a href="how.html">How it Works</a></li>
+                </ul>
+            </div>
+            <div class="footerheading footer-2">
+                <h2>About Us</h2>
+                <ul> 
+                    <li><a href="Support.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footerheading footer-3">
+                <h2>Resources</h2>
+                <ul> 
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Referral.html">Refferral</a></li>
+                    <li><a href="Newsletter.html">Newsletter</a></li>
+                </ul>
+            </div>
+            <div class="footerheading footer-4">
+                <h3>Enter The Fold</h3>
+                <form action="https://www.w3schools.com/action_page.php" onsubmit="return newsLetter()" method="POST" autocomplete="off">
+                    <label for="newsletter">Subscribe to our newsletter</label><br>
+                    <input type="email" name="newsletter" id="newsletter" placeholder="Email">
+                    <input id = "button" type="submit" value="Subcribe">
+                </form>
+                <a href="https://twitter.com"><img src="Images/Twitter.png" alt="Twitter" class="socials"></a>
+                <a href="https://www.instagram.com"><img src="Images/Instagram.png" alt="Instagram" class="socials"></a>
+            </div>
+            
+            <div id="rights">
+                <p>@ 2021 Common Inc All Rights Reserved.<p><br>
+                <a href="t&c.txt">Terms and Conditions | </a><a href="priv.txt">Privacy</a>
+            </div>
+        </footer>
+    
+        <script>
+            function newsLetter() {
+                var newsletter = document.getElementById("newsletter").value;
+                if (newsletter == "") {
+                    alert("Email must be filled out");
+                    return false;
+                }
+                else
+                {
+                    alert("Thank you for subscribing to our newsletter");
+                    return true;
+                }
+            }
+        </script>
+    </body>
+</html>
+
+<!--Yuuta part-->

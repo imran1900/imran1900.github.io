@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common - Support</title>
+    <link rel="stylesheet" href="Support.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img id="logo" src="Images/Blogo.png" alt="Logo"></a>
+        <a href="index.html"><img src="Images/Wlogo.png" alt="Logo" id="alogo"></a>
+    </nav>
+    <div id="empty"></div>
+    <div id="left">
+        <h1>Let's get in touch</h1>
+        <div id="box">
+            <form action="https://www.w3schools.com/action_page.php" autocomplete="off" onsubmit="return supportMail()" method="POST">
+                <input type="text" name="fname" id="fname" placeholder="First Name">
+                <input type="text" name="lname" id="lname" placeholder="Last Name"><br>
+                <input type="email" name="client" id="client" placeholder="Email"><br>
+                <textarea rows="4" cols="50" name= "support" id="support" placeholder="What is your inquiry?"></textarea><br>
+                <input id = "button" type="submit" value="Send inquiry to Support">
+            </form>
+        </div>
+    </div>
+    <div id="right">
+        <div><img src="Images/Fcloud.png" alt="Semi circle deco" id="fcloud"></div>
+        <div><img src="Images/Semi2.png" id="semi2" alt="Semi circle deco"></div>
+        <div><img src="Images/Foval.png" alt="Full oval deco" id ="foval"></div>
+        <div><img src="Images/Semisquare.png" alt="Semicircle-square deco" id ="semisquare"></div>
+    </div>
+
+    <script>
+        function supportMail() {
+            var fname = document.getElementById("fname").value;
+            var lname = document.getElementById("lname").value;
+            var signup = document.getElementById("client").value;
+            var support = document.getElementById("support").value;
+
+            if (fname == "" || lname == "" || signup == "" || support == "" ){
+                alert("All fields must be filled out");
+                return false;
+            }
+            else
+            {
+                alert("A support inquiry has been sent to Common. The email " + signup +" will be contacted as soon as possible by support.");
+                return true;
+            }
+        }
+    </script>    
+</body>
+</html>
+
+<!--Done by Marvin-->

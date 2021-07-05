@@ -1,0 +1,631 @@
+/*stretch to whole page*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/*Css for Navigation*/
+/*Changes the navigation background colour,padsit and changes display type to flex(which changes the nav menu if you are on
+mobile or monitor)*/
+nav
+{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*Changes size of Home logo and link to home*/
+#home
+{   
+    width : 160px;
+    height : 25px; 
+    margin-right: 5rem;
+    margin-left: 2rem;
+}
+
+/*changes most of the link text colours,margins,style and colour when hovered or pressed*/
+.nav2
+{ 
+    margin-right: 20px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+}
+.nav2:hover
+{
+    color: darkgray;
+    transition: 0.1s ease-out;
+}
+.nav2:active
+{
+    color: gray;
+}
+
+/**changes login text location,colours,margins,style and colour when hovered or pressed*/
+#login
+{
+    margin-left: auto;
+    order: 2;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+}
+#login:hover
+{
+    color: darkgray;
+    transition: 0.1s ease-out;
+}
+#login:active
+{
+    color: gray;
+}
+
+/**changes singup text location,colours,margins,style and colour when hovered or pressed
+as well as the border around the sigunp*/
+#signup
+{
+    order: 2;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    padding: 5px 10px 5px;
+    color: white;
+    text-decoration: none;
+}
+#signup:hover
+{
+    color: darkgray;
+    transition: 0.1s ease-out;
+}
+#signup:active
+{
+    color: gray;
+}
+
+#msignup{display: none;}
+/*Css for footer*/
+/*changes footer background and text colour, padding,centers content.
+ display type to flex to work with mobile.*/
+footer
+{
+    background-color: black; 
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*Display set to flex to create columns and margin right for spacing*/
+.footerheading
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 65px;
+}
+
+/*Logo size and margins*/
+#logo
+{
+    width:160px;
+    height:25px;
+    margin-right: 15rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+/*heading sizes for footer*/
+.footerheading h2
+{
+    margin-bottom: 1rem;
+}
+
+
+/*Changes colour,style and margin for text below headings*/
+.footerheading ul
+{
+    list-style: none;
+}
+.footerheading li
+{
+    margin-bottom: 15px;
+}
+.footerheading a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.footerheading a:hover
+{
+    color: lightgray;
+    transition: 0.1s ease-out;
+}
+.footerheading a:active
+{
+    color: darkgray;
+}
+
+
+/*Changes size and margin of input field for newsletter*/
+#newsletter
+{
+    height: 2rem ;
+    width: 15rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1.5px;
+}
+
+/*Changes button size,padding and colour as well as border style for button*/
+#button
+{
+    padding:5px 5px 7px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: #d3e3e3;
+    border-width: 1px;
+    font-size: 1rem;
+    margin-left: -20%;
+}
+#button:active
+{
+    background-color: #94a0a0;
+}
+
+/*Changes the width and height of the socials*/
+.socials
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/*specifically changes link size for the twitter/instagram size*/
+.footer-4
+{
+    margin: auto;
+}
+.footer-4 a
+{
+    width: 1rem;    
+}
+
+/*Copyright css*/
+/*Changes the text colours,font size, margins of the copyrights and also changes the colour
+ of the link and link style*/
+#rights
+{
+    color: gray;
+    font-size: 0.8rem;
+    margin:auto;   
+}
+#rights a
+{   
+    color:gray;
+    text-decoration: none;
+}
+
+body{background-color: black;}
+
+
+.slogan{display: flex;
+        width: auto;
+        margin: 5rem auto 5rem 20rem;
+}
+
+
+.slogan1{
+        color:#FFFFFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 72px;
+        }
+
+.slogan2{color:#F5FF80;
+         font-family: 'Inter', sans-serif;
+         font-size: 72px;}
+    
+.slogan3{color:#D7E4E3;
+         font-family: 'Inter', sans-serif;
+         font-size: 72px;}
+
+.slogan4{color:#8F6FDB;
+         font-family: 'Inter', sans-serif;
+         font-size: 72px;}
+
+.about{display: flex;
+       width: auto;
+}
+
+.about-col{width: 544px;
+        height: auto;
+        margin: 5rem 20rem 5rem auto;
+        color:#FFFFFF;
+        line-height: 41px;}
+
+.about-col p{font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        font-size: 34px;}
+
+.mission{background-color: #F5FF80;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+
+.mission p{font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        font-size: 34px;}
+
+.mission-col1{padding: 0;
+        width: 444px;
+        height: 350px;
+        margin: 10rem 0rem 5rem 20rem;
+        line-height: 41px;
+        color: black;
+        font-size: 44px;
+        text-align: left;}
+
+.mission-col2{padding: 0; 
+        width: 544px;
+        height: 350px;
+        margin: 10rem 20rem 5rem 0rem;
+        line-height: 41px;
+        color: black;
+        font-size: 44px;
+        text-align: left;}
+
+.team{box-sizing: content-box;
+      height: auto;
+      background: white;
+      padding-top: 120px;
+      text-align: center;
+}
+
+.team-header{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 4rem;
+}
+
+.team-headertext{font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 2.5rem;
+        padding-bottom: 5rem;
+}
+
+#wrapper2 {width: 50%;
+        margin: auto;
+} 
+
+.team-row{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;       
+        padding: 0rem 0rem 10rem 0rem;
+
+}
+
+.team-col{position: relative;
+        width: 450px;
+        height: 500px;
+        margin: 10px;
+        background: #D7E4E3;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: black;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: left;
+}
+
+.team-col h3{display: flex;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 5px;
+        text-align: left;
+        margin: 20px 0px 0px 35px;
+}
+
+.team-col p{font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #00000098;
+        font-size: 18px;
+        line-height: 5px;
+        margin: 30px 0px 0px 35px;
+}
+
+.avatar{margin-left: auto;
+        margin-right: auto;
+        width: 440px;
+        height: 380px;
+        padding: 30px 30px 0px 30px;
+}
+
+/*for tablets*/
+@media only screen and (max-width: 1024px) 
+{
+    *
+    {
+        font-size: large;
+    }
+
+    .slogan{display: flex;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
+    .slogan1{font-size: 3rem;
+    }
+
+    .slogan2{font-size: 3rem;}
+   
+    .slogan3{font-size: 3rem;}
+
+    .slogan4{font-size: 3rem;}
+
+    .about-col{width: 544px;
+        height: auto;
+        margin: 5rem 3rem 5rem 22rem;
+    }
+
+    .about-col p{font-size: 1.5rem;
+    }
+
+    .mission{display: flex;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .mission p{font-size: 1.5rem;
+    }
+
+    .mission-col1{margin: 5rem 2rem 0rem 2rem;
+        width: auto;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+
+    .mission-col2{margin: 5rem 4rem 0rem 0rem;
+        width: auto;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    
+    .team-header{font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .team-headertext{font-size: 0.9rem;
+                     padding-bottom: 4rem;
+
+    }
+
+    #wrapper2 {width: 100%;
+        margin: auto;
+    } 
+
+    .team-col{width: 450px;
+        height: 500px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .team-col h3{font-size: 1.8rem;
+        line-height: 5px;
+}
+
+    #logo{margin: auto}
+    #newsletter
+    {
+        font-size: .8rem;
+        width: 10rem;
+        border-radius: 5px;
+    }
+    #button
+    {   padding: 5px;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .footer-4
+    {
+        margin: auto;
+    }
+    #rights
+    {
+        padding-top: 1rem;
+        margin:auto
+    }
+
+}
+/*for Phones*/
+@media only screen and (max-width: 768px) 
+{
+    #home
+    {
+        margin:auto;
+        width:auto;
+    }
+
+    nav
+    {
+        flex-direction: column;
+    }
+    .nav2
+    {
+        border-top: black;
+        padding:.5rem 0rem .5rem;
+        margin:auto;
+        font-size: 2rem;
+    }
+    #logo
+    {
+        margin: auto;
+    }
+    #login
+    {
+        padding:.5rem 0rem .5rem;
+        order: initial;
+        margin: auto;
+        font-size: 2rem;
+    }
+    #signup
+    {
+        display: none;
+    }
+    #msignup
+    {
+        padding:.5rem 0rem .5rem;
+        display: inline;
+        font-size: 2rem;
+        margin: auto;
+        color: black;
+        text-decoration: none;
+    }
+    #msignup:hover
+    {
+        color: darkgray;
+        transition: 0.1s ease-out;
+    }
+    #msignup:active
+    {
+        color: gray;
+    }
+    #newsletter
+    {
+        font-size: .8rem;
+        width: 10rem;
+        border-radius: 5px;
+    }
+    #button
+    {   padding: 5px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    #logo
+    {
+        margin-bottom: 1rem;
+    }
+
+    .footerheading
+    {
+        padding: .8rem;
+    }
+    .footer-4
+    {
+        margin: auto;
+        
+    }
+    .footer-4 h3
+    {
+        padding-bottom: .5rem;
+    }
+    .footer-4 a
+    {
+        margin-bottom: 1rem;
+    }
+    .socials
+    {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #wrapper {background-color: black; 
+        width: 100%;
+        margin: auto;
+    } 
+
+    .slogan{display: flex;
+        margin: 0rem 2rem 0rem 2rem;
+    }
+
+    .slogan1{
+        color:#FFFFFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 2rem;
+    }
+
+    .slogan2{color:#F5FF80;
+        font-family: 'Inter', sans-serif;
+        font-size: 2rem;}
+   
+    .slogan3{color:#D7E4E3;
+            font-family: 'Inter', sans-serif;
+            font-size: 2rem;}
+
+    .slogan4{color:#8F6FDB;
+            font-family: 'Inter', sans-serif;
+            font-size: 2rem;
+        }
+
+    .about-col{margin: 3rem 2rem 5rem 2rem;
+    }
+
+    .about-col p{font-size: 1.5rem;
+                width: auto;
+                text-align: left;
+    }
+
+    .mission{display: flex;
+        flex-direction: column;
+    }
+
+    .mission p{font-size: 1.5rem;
+    }
+
+    .mission-col1{margin: 4rem 2rem 0rem 2rem;
+        width: auto;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .mission-col2{margin: 0rem 0rem 0rem 0rem;
+        width: auto;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    
+    .team-header{font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .team-headertext{font-size: 0.9rem;
+                     padding-bottom: 4rem;
+
+    }
+
+    #wrapper2 {width: 100%;
+        margin: auto;
+    } 
+
+    .team-col{width: 450px;
+        height: 500px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .team-col h3{font-size: 1.8rem;
+        line-height: 5px;
+}
+    
+
+
+        
+}
